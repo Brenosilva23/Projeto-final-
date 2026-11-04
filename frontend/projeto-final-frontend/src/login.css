@@ -1,0 +1,135 @@
+
+.log {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px; 
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+
+.l1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 500px;
+}
+
+.l1 h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.l1 h1 span {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  -webkit-text-fill-color: transparent;
+}
+
+.l1 img {
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+}
+
+
+.l2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px; 
+  max-width: 360px;
+  width: 100%;
+}
+
+.l2 h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin: 0 0 8px 0;
+  text-align: left;
+}
+
+
+.l2 input {
+  width: 100%;
+  padding: 14px 12px;
+  border: 1px solid #dbdbdb;
+  border-radius: 12px; 
+  background-color: #ffffff;
+  font-size: 14px;
+  box-sizing: border-box;
+  color: #000000;
+}
+
+.l2 input::placeholder {
+  color: #737373;
+}
+
+.l2 input:focus {
+  border-color: #a8a8a8;
+  outline: none;
+}
+
+.btn-solid.theme-primary {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 25px; 
+  background-color: #4cb5f9; 
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-solid.theme-primary:hover {
+  background-color: #1877f2;
+}
+
+
+
+.btn-outline.theme-secondary {
+  background: none;
+  border: none;
+  background-color: #afafafb8;
+  border-radius: 25px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 8px 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-outline.theme-secondary:hover {
+  opacity: 0.7;
+}
+
+.nova {
+  background: none;
+  border: 1px solid #2b41bc;
+  color: #2b41bc;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 25px; 
+  cursor: pointer;
+  padding: 8px 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nova:hover {
+  opacity: 0.7;
+}
