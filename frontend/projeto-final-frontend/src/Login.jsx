@@ -15,8 +15,8 @@ function login() {
         <div className="l2">
           <h3>Entrar no Instagram</h3>
 
-          <input type="text" placeholder="Número de celular, nome de usuário ou email" />
-          <input type="password" placeholder="Senha" />
+          <input type="text" placeholder="Número de celular, nome de usuário ou email"  autoComplete="off"/>
+          <input type="password" placeholder="Senha" autoComplete="off" />
           <Link to="/feed">
             <button type="button" className="btn-primary">Entrar</button>
           </Link>
