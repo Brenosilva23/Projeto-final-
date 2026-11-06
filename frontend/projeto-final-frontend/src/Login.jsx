@@ -20,13 +20,13 @@ function login() {
           <Link to="/feed">
             <button type="button" className="btn-primary">Entrar</button>
           </Link>
-          <a target="_blank" rel="noopener noreferrer" className="btn-outline theme-secondary" href="https://instagram.com">
+          <a target="_blank" rel="noopener noreferrer" className="btn-outline theme-secondary" href="https://www.instagram.com/accounts/password/reset/">
             Esqueceu a senha?
           </a>
 
-          <Link className="nova" to="/perfil">
-            Criar nova Conta
-          </Link>
+          <a target="_blank" rel="noopener noreferrer" className="btn-outline theme-secondary" href="https://www.instagram.com/accounts/emailsignup/">
+            Criar nova conta
+          </a>
         </div>
       </section>
     </>

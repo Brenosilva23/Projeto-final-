@@ -1,0 +1,116 @@
+body {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.feed {
+    width: 100%;
+    max-width: 600px; 
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 30px;
+}
+
+#ftperfil {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;         
+    padding: 10px 0;
+    gap: 16px;                  
+}
+
+.perfil {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #dbdbdb;
+    padding: 2px;
+}
+
+#ftperfil h2 {
+    margin: 0; 
+}
+
+.btn {
+    width: 100%;
+    background-color: #efefef;
+    border: none;
+    color: #262626;
+    padding: 7px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #dbdbdb;
+}
+
+#ftdestaques {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding: 5px 0 10px 0;
+    scrollbar-width: none;
+}
+
+.destaques {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+    background-image: linear-gradient(white, white), linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    padding: 2px;
+    transition: transform 0.6s ease;
+}
+
+.destaques:hover{
+  transform: scale(2.0);
+  cursor: pointer;
+  clip-path: polygon(100% 50%,84.70057014808336% 54.5684167277018%,91.0518476172854% 60.99980941685713%,82.33578363789503% 63.39392013277814%,93.30127018922194% 75%,77.76736691019323% 71.30665001530522%,80.05203820042827% 80.05203820042827%,71.30665001530522% 77.76736691019323%,75% 93.30127018922192%,63.39392013277814% 82.33578363789503%,60.99980941685714% 91.0518476172854%,54.56841672770181% 84.70057014808336%,50% 100%,45.4315832722982% 84.70057014808336%,39.000190583142874% 91.0518476172854%,36.606079867221865% 82.33578363789505%,25.00000000000001% 93.30127018922194%,28.693349984694787% 77.76736691019323%,19.947961799571733% 80.05203820042827%,22.23263308980677% 71.30665001530522%,6.698729810778076% 75.00000000000001%,17.664216362104966% 63.39392013277815%,8.948152382714603% 60.99980941685715%,15.299429851916635% 54.568416727701816%,0% 50.00000000000001%,15.299429851916635% 45.431583272298205%,8.94815238271459% 39.00019058314288%,17.66421636210496% 36.60607986722188%,6.698729810778062% 25.000000000000014%,22.23263308980676% 28.693349984694787%,19.947961799571715% 19.947961799571747%,28.69334998469477% 22.232633089806775%,24.99999999999998% 6.698729810778083%,36.60607986722184% 17.664216362104973%,39.00019058314284% 8.948152382714603%,45.43158327229816% 15.299429851916642%,49.99999999999999% 0%,54.568416727701795% 15.299429851916635%,60.99980941685711% 8.94815238271459%,63.39392013277812% 17.66421636210496%,74.99999999999997% 6.6987298107780475%,71.3066500153052% 22.23263308980675%,80.05203820042826% 19.947961799571722%,77.76736691019323% 28.69334998469477%,93.30127018922192% 24.99999999999998%,82.33578363789502% 36.60607986722184%,91.0518476172854% 39.00019058314283%,84.70057014808336% 45.43158327229816%)
+}
+
+
+#feeds {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+#feeds img {
+    width: 50%;
+    margin-left: 25%;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;
+}
+
+#feeds h4 {
+    padding: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+#feeds h5::before {
+    font-weight: 600;
+    margin-right: 6px;
+}
+
+
