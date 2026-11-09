@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function Feed() {
+    const [postagens, setPostagens] = useState([]);
+    const [perfil, setPerfil] = useState({ nome: "", ftPerfil: "" });
+
+    useEffect(() => {
+        fetch("http://localhost:3000/api/perfil")
+            .then((res) => res.json())
+            .then((data) => setPerfil(data))
+            .catch((err) => console.error("Erro ao carregar perfil no feed:", err));
+
+        fetch("http://localhost:3000/api/postagens")
+            .then((res) => res.json())
+            .then((data) => setPostagens(data))
+            .catch((err) => console.error("Erro ao carregar postagens do feed:", err));
+    }, []);
+
     return (
         <>
-            <section className="feed">
+        <section className="feed">
                 <div id="ftperfil">
                     <img className="perfil" src="https://i.pinimg.com/736x/29/7b/2c/297b2c752bb8fe5dc4f640b4c6f213ed.jpg" alt="Perfil" />
                     <h2>Breno Nascimento</h2>

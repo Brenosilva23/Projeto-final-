@@ -9,7 +9,7 @@ function Perfil() {
             <section id="pagina">
                 <div id="cabecalho">
                     <div id="ftperfil">
-                        <img className="perfil" src="https://i.pinimg.com/736x/d8/66/2f/d8662fe7e5cf017786b4d3a572398757.jpg" alt="" />
+                        <img className="perfil" src="https://i.pinimg.com/736x/39/14/d4/3914d474cbba4e9bd8a17ab5e7834149.jpg" alt="" />
                     </div>
                     <div id="txperfil">
                         <strong><h2>Breno Silva</h2></strong>

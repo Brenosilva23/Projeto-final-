@@ -1,0 +1,73 @@
+/* Container do Formulário dentro de #conteudo */
+.form-editar {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-sizing: border-box;
+}
+
+/* Estrutura de cada bloco de Input/Label */
+.campo-input {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.campo-input label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #262626;
+}
+
+/* Estilização dos campos de Texto e Textarea */
+.campo-input input,
+.campo-input textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #262626;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+}
+
+/* Efeito de foco padrão dos inputs do Instagram */
+.campo-input input:focus,
+.campo-input textarea:focus {
+    outline: none;
+    border-color: #a8a8a8;
+}
+
+/* Área do botão de ação */
+.acoes-form {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    border-top: 1px solid #dbdbdb;
+    padding-top: 20px;
+}
+
+/* Botão Enviar/Salvar Azul Oficial */
+.btn-salvar {
+    background-color: #0095f6;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-salvar:hover {
+    background-color: #1877f2;
+}
+
